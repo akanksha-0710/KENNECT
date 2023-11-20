@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2ecc71; /* Green background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#sorting-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 2px;
+    margin: auto; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+.bar {
+    background-color: #3498db;
+    width: 20px;
+    margin: 0 2px;
+}
